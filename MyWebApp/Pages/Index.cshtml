@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+        body {
+            background-color: #f0f0f0; /* Set a light background color */
+        }
+        .text-center {
+            text-align: center;
+            margin-top: 50px; /* Add some top margin for better spacing */
+        }
+        .calculator-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff; /* Set a white background color for the form */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+        }
+        input[type="text"], button {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #87CEEB; /* Set light blue color for the buttons */
+            color: #ffffff; /* Set text color to white */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #5F9EA0; /* Change button color on hover */
+        }
+    </style>
+
+<div class="text-center">
+     <h1 class="display-5">MEHAK'S CALCULATOR</h1>
+      <form action="" method="POST">
+        <input type="text" name="number1" value="" placeholder="Enter your Number"><br>
+        <input type="text" name="number2" value="" placeholder="Enter the Power"><br>
+         <input type="text" name="result" value="@ViewData["result"]">
+
+            <button type="Submit" name="power" value="power">Power</button>
+            <button type="Submit" name="x2" value="x2">Power of 2</button>
+            <button type="Submit" name="x3" value="x3">Power of 3</button>
+    
+
+    </form>
+
+
+</html>

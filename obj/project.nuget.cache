@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xdTKE8+2VbV+8YzdwBJ2mfvBiCHWGpQU2BpjnwSakzA2a+XzhJK0BnXAL6f8Ztte5GPcG30RaQd0/ZLLfhuLOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mehak Rajrana\\Desktop\\class1\\MyFSharpApp\\MyFSharpApp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mehak Rajrana\\.nuget\\packages\\fsharp.core\\7.0.401\\fsharp.core.7.0.401.nupkg.sha512"
+  ],
+  "logs": []
+}
